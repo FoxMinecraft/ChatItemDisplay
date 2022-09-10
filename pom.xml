@@ -7,7 +7,7 @@
 
     <groupId>com.github.bingorufus</groupId>
     <artifactId>ChatItemDisplay</artifactId>
-    <version>1.8.5</version>
+    <version>1.9.3</version>
 
     <name>ChatItemDisplay</name>
     <developers>
@@ -27,12 +27,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <javaplugin.name>ChatItemDisplay</javaplugin.name>
-        <javaplugin.main>io.github.bingorufus.chatitemdisplay.ChatItemDisplay</javaplugin.main>
+        <javaplugin.main>com.bingorufus.chatitemdisplay.ChatItemDisplay</javaplugin.main>
         <javaplugin.description>Display items, inventories, and ender chests in chat</javaplugin.description>
 
 
         <bungee.name>ChatItemDisplayBungee</bungee.name>
-        <bungee.main>io.github.bingorufus.chatitemdisplaybungee.ChatItemDisplayBungee</bungee.main>
+        <bungee.main>com.bingorufus.chatitemdisplaybungee.ChatItemDisplayBungee</bungee.main>
         <bungee.description>Bungee support for ChatItemDisplay</bungee.description>
 
     </properties>
@@ -109,34 +109,36 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
+            <version>1.18.22</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.18-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>4.5.0</version>
+            <version>4.7.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>net.kyori</groupId>
             <artifactId>adventure-text-serializer-gson</artifactId>
-            <version>4.5.1</version>
+            <version>4.9.3</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.discordsrv</groupId>
             <artifactId>discordsrv</artifactId>
-            <version>1.21.1</version>
+            <version>1.24.0</version>
             <scope>provided</scope>
         </dependency>
 
